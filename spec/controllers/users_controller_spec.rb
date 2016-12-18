@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe UsersController do
-=begin
+begin
   render_views
 
   describe "GET 'index'" do
@@ -13,7 +13,7 @@ describe UsersController do
       end
     end
     
-    describe "for signed-in-users" do
+    describe "for all signed-in-users" do
 
       before(:each) do
         @user = test_sign_in(Factory(:user))
